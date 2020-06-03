@@ -20,6 +20,7 @@ jobs:
 
     - name: Debian 10 buster (arm64)
       os: linux
+      arch: arm64
       env:
         - DEBIAN_RELEASE: buster
         - DEBIAN_ARCH: arm64
